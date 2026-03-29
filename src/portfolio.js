@@ -109,14 +109,14 @@ const educationInfo = {
       schoolName: "University of New South Wales",
       logo: require("./assets/images/unsw.png"),
       subHeader: "Master of Philosophy (Mphil) in Engineering",
-      duration: "March 2024 - May 2026",
+      duration: "Feb. 2024 - Present",
       desc: [
         {text: "Under the supervision of "},
         {text: "Dr. Yuekang Li", link: "https://thepatrickstar.github.io/"},
-        {text: " , "},
-        {text: "Dr. Hui Guo", link: "https://www.unsw.edu.au/staff/hui-guo"},
         {text: " and "},
-        {text: "Prof. Yulei Sui", link: "https://www.unsw.edu.au/staff/hui-guo"}
+        {text: "Dr. Hui Guo", link: "https://www.unsw.edu.au/staff/hui-guo"},
+        // {text: " and "},
+        // {text: "Prof. Yulei Sui", link: "https://www.unsw.edu.au/staff/hui-guo"}
       ],
       descBullets: [
         "School of Computer Science and Engineering, Faculty of Engineering",
@@ -353,7 +353,7 @@ const contactInfo = {
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   // number: "+92-0000000000",
   email_address: "junchen.ding@unsw.edu.au",
-  location: "Sydney / Wollongong, Australia",
+  location: "Sydney / Wollongong, NSW, Australia",
   avatar_image_path: "jamisonphoto.jpg"
 };
 
