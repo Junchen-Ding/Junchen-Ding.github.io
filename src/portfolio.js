@@ -114,7 +114,7 @@ const educationInfo = {
         {text: "Under the supervision of "},
         {text: "Dr. Yuekang Li", link: "https://thepatrickstar.github.io/"},
         {text: " and "},
-        {text: "Dr. Hui Guo", link: "https://www.unsw.edu.au/staff/hui-guo"},
+        {text: "Dr. Hui Guo", link: "https://www.unsw.edu.au/staff/hui-guo"}
         // {text: " and "},
         // {text: "Prof. Yulei Sui", link: "https://www.unsw.edu.au/staff/hui-guo"}
       ],
