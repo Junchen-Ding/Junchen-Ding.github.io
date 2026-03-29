@@ -68,8 +68,15 @@
   background-color: $instagram;
 }
 
+
+.google-scholar i {
+  background-color: $googlescholar;
+}
+
+
 /* Hover Transition */
 .twitter i:hover,
+.google-scholar i:hover
 .google i:hover,
 .gitlab i:hover,
 .github i:hover,
