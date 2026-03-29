@@ -107,7 +107,7 @@ const educationInfo = {
     },
     {
       schoolName: "University of New South Wales",
-      logo: require("./assets/images/unswsydney.png"),
+      logo: require("./assets/images/unsw.png"),
       subHeader: "Master of Philosophy (Mphil) in Engineering",
       duration: "Feb. 2024 - Present",
       desc: [
