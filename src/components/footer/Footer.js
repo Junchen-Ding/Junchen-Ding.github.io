@@ -11,6 +11,7 @@ export default function Footer() {
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji("Made with ❤️ by Junchen Ding")}
+          {emoji("Copyright © 2026 Junchen Ding")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Theme by{" "}
