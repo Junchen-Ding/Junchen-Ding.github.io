@@ -51,7 +51,15 @@ export default function Contact() {
                 <>
                   <br />
                   <br />
-                  <div className="contact-detail-location" style={{ color: isDark ? "white" : "black", display: "flex", alignItems: "center", gap: "10px" }}>
+                  <div
+                    className="contact-detail-location"
+                    style={{
+                      color: isDark ? "white" : "black",
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "10px"
+                    }}
+                  >
                     <i className="fas fa-map-marker-alt"></i>
                     <span>{contactInfo.location}</span>
                   </div>
@@ -75,7 +83,7 @@ export default function Contact() {
                   border: isDark ? "5px solid #333" : "5px solid #f1f1f1", // 增加边框感
                   boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)",
                   marginLeft: "300px",
-                  marginTop: "50px",
+                  marginTop: "50px"
                 }}
               />
             ) : (

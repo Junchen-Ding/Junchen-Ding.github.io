@@ -52,10 +52,10 @@
   margin-top: 4rem;
 }
 
-  .contact-image-div img {
-    max-width: 250px !important;
-    margin-top: 20px;
-  }
+.contact-image-div img {
+  max-width: 250px !important;
+  margin-top: 20px;
+}
 
 /* Media Query */
 @media (max-width: 1380px), (max-width: 768px) {
@@ -91,5 +91,4 @@
   .contact-image-div {
     display: none;
   }
-
 }

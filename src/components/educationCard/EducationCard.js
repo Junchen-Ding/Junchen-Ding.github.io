@@ -57,24 +57,28 @@ export default function EducationCard({school}) {
               {/*<p className="education-text-desc">{school.desc}</p>*/}
 
               <p className="education-text-desc">
-  {Array.isArray(school.desc)
-    ? school.desc.map((item, index) => (
-        item.link ? (
-          <a
-            key={index}
-            href={item.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: "#4285f4", textDecoration: "none", fontWeight: "bold" }}
-          >
-            {item.text}
-          </a>
-        ) : (
-          <span key={index}>{item.text}</span>
-        )
-      ))
-    : school.desc}
-</p>
+                {Array.isArray(school.desc)
+                  ? school.desc.map((item, index) =>
+                      item.link ? (
+                        <a
+                          key={index}
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          style={{
+                            color: "#4285f4",
+                            textDecoration: "none",
+                            fontWeight: "bold"
+                          }}
+                        >
+                          {item.text}
+                        </a>
+                      ) : (
+                        <span key={index}>{item.text}</span>
+                      )
+                    )
+                  : school.desc}
+              </p>
 
               <div className="education-text-bullets">
                 <ul>

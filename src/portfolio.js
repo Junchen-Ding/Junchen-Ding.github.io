@@ -33,7 +33,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  googlescholar:"https://scholar.google.com/citations?user=MTlRGLoAAAAJ&hl",
+  googlescholar: "https://scholar.google.com/citations?user=MTlRGLoAAAAJ&hl",
   github: "https://github.com/Junchen-Ding",
   // linkedin: "https://www.linkedin.com/in/saadpasta/",
   gmail: "junchen.ding@unsw.edu.au",
@@ -52,13 +52,9 @@ const skillsSection = {
   title: "What I do",
   subTitle: "A RESEARCHER INTERESTED IN ALL TRENDING TOPIC",
   skills: [
-    emoji(
-      "⚡ Large Language Models (LLMs) Red Team"
-    ),
+    emoji("⚡ Large Language Models (LLMs) Red Team"),
     emoji("⚡ Secure Development and Testing in Software Engineering"),
-    emoji(
-      "⚡ Currently passionate about researching AI4Science"
-    )
+    emoji("⚡ Currently passionate about researching AI4Science")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -96,11 +92,14 @@ const educationInfo = {
       subHeader: "Doctor of Philosophy (PhD)",
       duration: "Enrollment begins in July 2026",
       desc: [
-        { text: "Under the supervision of " },
-        { text: "Dr. Siqi Ma", link: "https://siqima.me/" },
-        { text: " and " },
-        { text: "Dist. Prof. Willy Susilo", link: "https://sites.google.com/view/willy-susilo/" },
-  ],
+        {text: "Under the supervision of "},
+        {text: "Dr. Siqi Ma", link: "https://siqima.me/"},
+        {text: " and "},
+        {
+          text: "Dist. Prof. Willy Susilo",
+          link: "https://sites.google.com/view/willy-susilo/"
+        }
+      ],
       descBullets: [
         "Institute of Cybersecurity and Cryptology (IC2)",
         "School of Computing and Information Technology, Faculty of Engineering and Information Sciences"
@@ -112,13 +111,13 @@ const educationInfo = {
       subHeader: "Master of Philosophy (Mphil) in Engineering",
       duration: "March 2024 - May 2026",
       desc: [
-        { text: "Under the supervision of " },
-        { text: "Dr. Yuekang Li", link: "https://thepatrickstar.github.io/" },
-        { text: " , " },
-        { text: "Dr. Hui Guo", link: "https://www.unsw.edu.au/staff/hui-guo" },
-        { text: " and "},
-        { text: "Prof. Yulei Sui", link: "https://www.unsw.edu.au/staff/hui-guo" },
-  ],
+        {text: "Under the supervision of "},
+        {text: "Dr. Yuekang Li", link: "https://thepatrickstar.github.io/"},
+        {text: " , "},
+        {text: "Dr. Hui Guo", link: "https://www.unsw.edu.au/staff/hui-guo"},
+        {text: " and "},
+        {text: "Prof. Yulei Sui", link: "https://www.unsw.edu.au/staff/hui-guo"}
+      ],
       descBullets: [
         "School of Computer Science and Engineering, Faculty of Engineering",
         "Average: HD"
