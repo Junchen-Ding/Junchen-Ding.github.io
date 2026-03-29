@@ -351,10 +351,10 @@ const contactInfo = {
   title: emoji("Feel free to contact"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  location: "Sydney / Wollongong, Australia",
   // number: "+92-0000000000",
   email_address: "junchen.ding@unsw.edu.au",
-  avatar_image_path: "mine.jpgjpg"
+  location: "Sydney / Wollongong, Australia",
+  avatar_image_path: "jamisonphoto.jpg"
 };
 
 // Twitter Section
