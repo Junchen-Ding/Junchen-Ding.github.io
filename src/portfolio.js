@@ -23,7 +23,7 @@ const greeting = {
   username: "Junchen Ding",
   title: "Hi all, I'm Jamison",
   subTitle: emoji(
-    "My name is Junchen Ding (峻晨 丁) and my English name is Jamison. I'm a passionate researcher🚀 on Software Engineering / Security and Privacy / Deep Learning"
+    "My name is Junchen Ding (峻晨 丁) and my English name is Jamison, a PhD Candidate in University of Wollongong. I am a passionate researcher🚀 on Software Engineering / Security and Privacy / Deep Learning. If you are interested in my papers, please refer to my Google Scholar."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1f9CUvNqcPljwtPAsJYbIkTzv2Cw7Xaii/view?usp=sharing", // Set to empty to hide the button
@@ -61,22 +61,22 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+  //   {
+  //     skillName: "llm",
+  //     fontAwesomeClassname: "fab fa-openai"
+  //   },
+  //   // {
+  //   //   skillName: "aws",
+  //   //   fontAwesomeClassname: "fab fa-aws"
+  //   // },
+  //   {
+  //     skillName: "python",
+  //     fontAwesomeClassname: "fab fa-python"
+  //   },
+  //   {
+  //     skillName: "docker",
+  //     fontAwesomeClassname: "fab fa-docker"
+  //   }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -108,8 +108,8 @@ const educationInfo = {
     {
       schoolName: "University of New South Wales",
       logo: require("./assets/images/unsw.png"),
-      subHeader: "Master of Philosophy (Mphil) in Engineering",
-      duration: "Feb. 2024 - Present",
+      subHeader: "Master of Philosophy (MPhil) in Engineering",
+      duration: "Feb. 2024 - June 2026",
       desc: [
         {text: "Under the supervision of "},
         {text: "Dr. Yuekang Li", link: "https://thepatrickstar.github.io/"},
@@ -352,7 +352,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   // number: "+92-0000000000",
-  email_address: "junchen.ding@unsw.edu.au",
+  email_address: "junchen.ding@uow.edu.au",
   location: "Sydney / Wollongong, NSW, Australia",
   avatar_image_path: "jamisonphoto.jpg"
 };
