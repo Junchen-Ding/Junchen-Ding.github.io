@@ -61,14 +61,14 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-  //   {
-  //     skillName: "llm",
-  //     fontAwesomeClassname: "fab fa-openai"
-  //   },
-  //   // {
-  //   //   skillName: "aws",
-  //   //   fontAwesomeClassname: "fab fa-aws"
-  //   // },
+    //   {
+    //     skillName: "llm",
+    //     fontAwesomeClassname: "fab fa-openai"
+    //   },
+    //   // {
+    //   //   skillName: "aws",
+    //   //   fontAwesomeClassname: "fab fa-aws"
+    //   // },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
