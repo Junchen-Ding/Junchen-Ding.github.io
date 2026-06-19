@@ -69,14 +69,14 @@ https://fontawesome.com/icons?d=gallery */
   //   //   skillName: "aws",
   //   //   fontAwesomeClassname: "fab fa-aws"
   //   // },
-  //   {
-  //     skillName: "python",
-  //     fontAwesomeClassname: "fab fa-python"
-  //   },
-  //   {
-  //     skillName: "docker",
-  //     fontAwesomeClassname: "fab fa-docker"
-  //   }
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
