@@ -23,7 +23,7 @@ const greeting = {
   username: "Junchen Ding",
   title: "Hi all, I'm Jamison",
   subTitle: emoji(
-    "My name is Junchen Ding (峻晨 丁) and my English name is Jamison, a PhD Candidate in University of Wollongong. I am a passionate researcher🚀 on Software Engineering / Security and Privacy / Deep Learning. If you are interested in my papers, please refer to my Google Scholar."
+    "My name is Junchen Ding (峻晨 丁) and my English name is Jamison, a PhD Candidate at University of Wollongong. I am a passionate researcher🚀 on Software Engineering / Security and Privacy / Deep Learning. If you are interested in my papers, please refer to my Google Scholar."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1f9CUvNqcPljwtPAsJYbIkTzv2Cw7Xaii/view?usp=sharing", // Set to empty to hide the button
