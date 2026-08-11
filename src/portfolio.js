@@ -352,7 +352,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   // number: "+92-0000000000",
-  email_address: "junchen.ding@uow.edu.au",
+  email_address: "jd073@uowmail.edu.au",
   location: "Sydney / Wollongong, NSW, Australia",
   avatar_image_path: "jamisonphoto.jpg"
 };
